@@ -1,0 +1,324 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>多彩校园</title>
+        <style>
+            /* css for this page */
+            body { font: 14px/24px 'Helvetica Neue', Arial, sans-serif; color: #333;  background: #eee }
+            body > h2 { margin: 30px 0 15px; text-shadow: 1px 1px 0 white; border-bottom: 2px solid #333; padding-bottom: 5px }
+            h1 { text-align: center; margin-bottom: 30px; text-shadow: 1px 1px 0 white }
+            strong + p { margin-top: 0 }
+            dt { font-weight: bold }
+            dd { margin: 0 }
+            figure { display: block; width: 100%; height: 100%; margin: 0 }
+            .accordion.stitch .slide div { background: #333 }
+            .social-buttons { width: 100%; text-align: center; margin-top: 30px }
+            .social-buttons ul { display: inline-block; margin: 0 }
+            .social-buttons li { float: left; list-style-type: none }
+            .call_out {
+                color: #444444;
+                background: url('img-demo/callout_bg.gif') repeat;
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                border-radius: 4px;
+                -webkit-box-shadow: 1px 0 3px rgba(0, 0, 0, 0.08);
+                -moz-box-shadow: 1px 0 3px rgba(0, 0, 0, 0.08);
+                box-shadow: 1px 0 3px rgba(0, 0, 0, 0.08);
+                margin-top: 20px;
+            }
+
+            .call_out .wrap {
+                padding: 19px 20px 17px 20px;
+                border: 1px solid #d7d4cb;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                border-radius: 3px;
+            }
+
+            .call_out h2 {
+                font-family: Georgia, "Times New Roman", Times, serif;
+                font-style: italic;
+                text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+                color: #444444;
+                font-size: 18px;
+                line-height: 20px;
+                margin: 10px 0;
+            }
+
+            .call_out a.alt_btn {
+                background: url('img-demo/sprite.png') 24px 356px;
+                display: block;
+                padding: 0 0 0 23px;
+                float: right;
+                margin: -45px 0 0 0;
+                font-family: Georgia, "Times New Roman", Times, serif;
+                font-style: italic;
+                font-size: 14px;
+                color: #252525;
+                text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8);
+                text-align: center;
+                border: none;
+                -webkit-box-shadow: 0;
+                -moz-box-shadow: 0;
+                box-shadow: 0;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            .call_out a.alt_btn span {
+                padding: 14px 23px 15px 0;
+                background: url('img-demo/sprite.png') 100% 253px;
+                display: block;
+            }
+
+            .call_out a:hover.alt_btn { background: url('img-demo/sprite.png') 24px 408px }
+            .call_out a:hover.alt_btn span { background: url('img-demo/sprite.png') 100% 304px }
+
+            #liteaccordion {
+                margin-left: 190px;
+            }
+        </style>
+
+        <!-- liteAccordion css -->
+       
+        <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="css/flat-ui.css" rel="stylesheet" media="screen">
+        <link rel="shortcut icon" href="img/tyust.png">
+  <!-- liteAccordion css -->
+        <link href="css/liteaccordion.css" rel="stylesheet" />
+
+        <!-- jQuery -->
+        <script src="js/jquery-1.9.min.js"></script>
+
+        <!-- easing -->
+        <script src="js/jquery.easing.1.3.js"></script>
+
+        <!-- Fresco -->
+  <script type="text/javascript" src="js/fresco/fresco.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/fresco/fresco.css"/>
+
+        <!-- liteAccordion js -->
+        <script src="js/liteaccordion.jquery.js"></script>
+
+        <!--[if lt IE 9]>
+            <script>
+                document.createElement('figure');
+                document.createElement('figcaption');
+            </script>
+        <![endif]-->
+    </head>
+    <body>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span8 offset2 ">
+
+            <div class="row-fluid">
+              <div class="span1">
+                <img class="reflect rheight23" src="img/tyust.png">
+              </div>
+              <div class="sapn4 offset1">
+                <br/>
+                <h3>计算机科学与技术学院</h3><strong><small>School of Computer Science and Technology</small></strong>
+              </div>
+            </div>
+            
+          <div class="navbar navbar-inverse"> <!--nav-->
+            <div class="navbar-inner">
+                  <ul class="nav">
+                    <li class="active brand">
+                      <a href="index.html">
+                        首页
+                      </a>
+                    </li>
+                    <li > <a href="introduction.html">学院概况 </a>                                          
+                      <ul>  
+                        <li><a href="introduction.html#overview">学院简介</a> </li>
+                        <li><a href="#">现任领导</a> </li>
+                        <li><a href="#">机构设置</a> </li>
+                        <li><a href="#">师资力量</a> </li>
+                        <li><a href="#">发展历程</a></li>
+                      </ul> <!-- /Sub menu -->
+                    </li>
+                    <li>
+                      <a href="#">教学工作</a>
+                      <ul>
+                        <li><a href="#">本科生</a></li>
+                        <li><a href="#">研究生</a></li>
+                      </ul>
+
+                    </li>
+                    <li>
+                      <a href="#">科研工作</a>
+                      <ul>
+                        <li><a href="#">研究机构</a></li>
+                        <li><a href="#">导师简介</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">党团建设</a>
+                       <ul>
+                        <li><a href="#">党建工作</a></li>
+                        <li><a href="#">团学工作</a></li>
+                    </ul>
+                    </li>
+                    <li>
+                      <a href="life.html">多彩校园</a>
+                    <ul>
+                        <li><a href="#">计算机协会</a></li>
+                        <li><a href="#">学生会</a></li>
+                    </ul>
+                    </li>
+                    <li>
+                      <a href="#"> 关于我们</a>
+                    </li>
+                  </ul>
+               </div>
+             </div> <!--nav-->
+             
+           </div>
+         </div>
+       </div>
+
+       <div class="row-fluid">
+         <br/> <br/> <br/>
+            <ul id="myTab" class="nav nav-tabs offset2" align="center">
+              <li class="active"><a href="#school" data-toggle="tab">走进校园</a></li>
+              <li><a href="#student" data-toggle="tab">学生会风采</a></li>
+              <li><a href="#society" data-toggle="tab">计算机协会掠影</a></li> 
+            </ul>
+        
+
+            <div id="myTabContent" class="tab-content">
+              <div class="tab-pane fade in active " id="school">
+                <div id="liteaccordion">
+                  <div id="one" >
+                    <ol>
+                      <li>
+                        <h2><span>Slide One</span></h2>
+                         <div>
+                          <figure>
+                            <a href="img-demo/1.jpg" class="fresco" >
+                            <img src="img-demo/1.jpg" alt="image" width="720" height="320"/>
+                            </a>
+                            <figcaption class="ap-caption">图书馆</figcaption>
+                         </figure>
+                        </div>
+                      </li>
+                      <li>
+                      <h2><span>Slide Two</span></h2>
+                       <div>
+                        <figure>
+                            <a href="img-demo/2.jpg" class="fresco" >
+                            <img src="img-demo/2.jpg" alt="image" width="720" height="320"/>
+                            </a>
+                            <figcaption class="ap-caption">校门口</figcaption>
+                        </figure>
+                       </div>
+                      </li>
+                      <li>
+                      <h2><span>Slide Three</span></h2>
+                      <div>
+                        <figure>
+                          <a href="img-demo/3.jpg" class="fresco" >
+                            <img src="img-demo/3.jpg" alt="image" width="720" height="320"/>
+                          </a>
+                            <figcaption class="ap-caption">冬天的图书馆</figcaption>
+                        </figure>
+                      </div>
+                      </li>
+                      <li>
+                      <h2><span>Slide Four</span></h2>
+                      <div>
+                        <figure>
+                          <a href="img-demo/4.jpg" class="fresco" >
+                            <img src="img-demo/4.jpg" width="768" alt="image" width="720" height="320"/>
+                          </a>
+                            <figcaption class="ap-caption">秋天的校道</figcaption>
+                        </figure>
+                        </div>
+                      </li>
+                      <li>
+                      <h2><span>Slide Five</span></h2>
+                       <div>
+                        <figure>
+                          <a href="img-demo/5.jpg" class="fresco" >
+                            <img src="img-demo/5.jpg" alt="image" width="720" height="320"/>
+                          </a>
+                            <figcaption class="ap-caption">主楼</figcaption>
+                        </figure>
+                      </div>
+                     </li>
+                </ol>
+                <noscript>
+                <p>Please enable JavaScript to get the full experience.</p>
+                </noscript>
+              </div>
+             </div>
+              </div>
+              <div class="tab-pane fade" id="student">
+                <p>待定</p>
+              </div>
+              <div class="tab-pane fade" id="society">
+                <p>待定</p>
+              </div>   
+          </div>
+        </div>
+      </div>
+
+       
+          
+             <!-- Footer
+              ================================================== -->
+              <div class="row-fluid">
+                <br/> <br/> <br/> <br/>
+                <div class="span8 offset2">
+             <footer class="footer" align="center " >
+     
+             <p >地址：中国·山西·太原科技大学(030024) 版权所有 &copy; </p>
+             <p>All Rights Reserved. <a href="http://www.tyust.edu.cn/" target="_blank" >Tyust.edu.cn</a> | 晋ICP备05000464号 </p>    
+      
+             </footer>
+             </div>
+           </div>
+  
+       
+
+          
+       
+           </div>
+         </div>
+        </div>  
+
+        <!-- liteAccordion demos, social & analytics -->
+        <script>
+            (function($, d) {
+                // please don't copy and paste this page
+                // it breaks my analytics!
+
+                // demos
+                $('#one').liteAccordion({
+                        onTriggerSlide : function() {
+                            this.find('figcaption').fadeOut();
+                        },
+                        onSlideAnimComplete : function() {
+                            this.find('figcaption').fadeIn();
+                        },
+                        autoPlay : true,
+                        pauseOnHover : true,
+                        theme : 'stitch',
+                        rounded : true,
+                        enumerateSlides : true
+                }).find('figcaption:first').show();
+                $('#two').liteAccordion();
+                $('#three').liteAccordion({ theme : 'dark', rounded : true, enumerateSlides : true, firstSlide : 2, linkable : true, easing: 'easeInOutQuart' });
+                $('#four').liteAccordion({ theme : 'light', firstSlide : 3, easing: 'easeOutBounce', activateOn: 'mouseover' });             
+            })(jQuery, document);   
+        </script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/reflection.js"></script>
+    </body>
+</html>
