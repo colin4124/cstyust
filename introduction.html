@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-  <title>太原科技大学计算机科学与技术学院</title>
+  <title>计算机科学与技术学院</title>
   <style>
             /* css for this page */
             body { font: 14px/24px 'Helvetica Neue', Arial, sans-serif; color: #333;  background: #eee }
@@ -15,16 +15,16 @@
   <link href="css/flat-ui.css" rel="stylesheet" media="screen">
   <link href="css/docs.css" rel="stylesheet">
   <link rel="shortcut icon" href="img/tyust.png">
-  <!-- liteAccordion css -->
-  <link href="css/liteaccordion.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+        <!--[if IE 7]>
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome-ie7.min.css">
+        <![endif]-->
   <!-- jQuery -->
   <script src="js/jquery-1.9.min.js"></script>
 
-  <!-- easing -->
-  <script src="js/jquery.easing.1.3.js"></script>
+  
 
-  <!-- liteAccordion js -->
-  <script src="js/liteaccordion.jquery.js"></script>
   <!-- Make IE8 and below responsive by adding CSS3 MediaQuery support -->
 <!--[if lt IE 9]>
   <script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -57,63 +57,72 @@
               </div>
             </div>
             
-          <div class="navbar navbar-inverse"> <!--nav-->
+         <div class="navbar navbar-inverse"> <!--nav-->
             <div class="navbar-inner">
                   <ul class="nav">
                     <li class="active brand">
                       <a href="index.html">
-                        首页
+                        <i class="icon-home"></i> 首页
                       </a>
                     </li>
                     <li > <a href="introduction.html">学院概况 </a>                                          
                       <ul>  
                         <li><a href="introduction.html#overview">学院简介</a> </li>
-                        <li><a href="#leader">现任领导</a> </li>
-                        <li><a href="#setting">机构设置</a> </li>
-                        <li><a href="#teacher">师资力量</a> </li>
-                        <li><a href="#history">发展历程</a></li>
+                         <li><a href="introduction.html#leader">现任领导</a> </li>
+                        <li><a href="introduction.html#setting">机构设置</a> </li>
+                        <li><a href="introduction.html#history">发展历程</a></li>
                       </ul> <!-- /Sub menu -->
                     </li>
-                       <li>
-                      <li>
-                      <a href="#">教学工作</a>
+                    <li>
+                      <a href="news-notice.html">新闻公告</a>
                       <ul>
-                        <li><a href="#">本科生</a></li>
-                        <li><a href="#">研究生</a></li>
+                        <li><a href="news.html">新闻焦点</a></li>
+                        <li><a href="notice.html">通知公告</a></li>
                       </ul>
 
                     </li>
                     <li>
-                      <a href="#">科研工作</a>
+                      <a href="teaching.html">教学工作</a>
                       <ul>
-                        <li><a href="#">研究机构</a></li>
-                        <li><a href="#">导师简介</a></li>
+                        <li><a href="undergraduate.html" >本科生</a></li>
+                        <li><a href="graduate.html" >研究生</a></li> 
                       </ul>
                     </li>
                     <li>
-                      <a href="#">党团建设</a>
+                      <a href="research.html">科研工作</a>
+                      <ul>
+                        <li><a href="research.html#setting">研究机构</a></li>
+                        <li><a href="research.html#teacher">导师简介</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="party-group.html">党团建设</a>
                        <ul>
-                        <li><a href="#">党建工作</a></li>
-                        <li><a href="#">团学工作</a></li>
+                        <li><a href="party.html">党建工作</a></li>
+                        <li><a href="group.html">团学工作</a></li>
                     </ul>
                     </li>
                     <li>
                       <a href="life.html">多彩校园</a>
                        <ul>
-                        <li><a href="#">走进校园</a></li>
-                        <li><a href="#">计算机协会</a></li>
-                        <li><a href="#">学生会</a></li>
+                        <li><a href="life.html">走进校园</a></li>
+                        <li><a href="student.html">学生会</a></li>
+                        <li><a href="society.html">计算机协会</a></li>
                        </ul>
                     </li>
                     <li>
-                      <a href="#"> 关于我们</a>
+                      <a href="about.html"> 关于我们</a>
                     </li>
                   </ul>
                </div>
              </div> <!--nav-->
+            
+            <br/>
+             <div class="progress">
+                <div class="bar" style="width: 100%;"></div>
+             </div>
 
-
-
+              
      
     <div class="row-fluid">
         <!-- Docs nav
@@ -123,7 +132,6 @@
           <li><a href="#overview"><i class="icon-chevron-right"></i> 学院简介</a></li>
           <li><a href="#leader"><i class="icon-chevron-right"></i> 现任领导</a></li>
           <li><a href="#setting"><i class="icon-chevron-right"></i> 机构设置</a></li>
-          <li><a href="#teacher"><i class="icon-chevron-right"></i> 师资力量</a></li>
           <li><a href="#history"><i class="icon-chevron-right"></i> 发展历程</a></li>
         </ul>
        </div>
@@ -134,9 +142,11 @@
         <!-- Overview
         ================================================== -->
         <section id="overview">
+          <h1>学院简介</h1>
+          <hr class="active"/>
           <h4>计算机科学与技术学院的前身为太原重机学院计算机科学与工程系，成立于1997年。003年8月正式成立计算机科学与技术学院。目前学院现有教职工68人，其中，拥有教授、副教授等高级职称35人，博士和硕士研究生导师25人。教师中拥有博士学位19人，在读博士8人。学院下设计算机系、信息技术系、软件工程系和一个实验教学中心。拥有计算机科学与技术、信息管理与信息系统、网络工程和软件工程四个本科专业，其中计算机科学与技术专业为国家级特色专业建设点和山西省首届省级品牌专业。信息管理与信息系统专业为山西省品牌专业。</h4><br/>
           <h4 id="计算机科学与技术学院拥有计算机科学与技术和软件工程两个一级硕士点计算机技术和软件工程两个工程硕士授权领域近年来在智能计算与群智能理论数据挖掘与知识工程物联网与传感网技术软件工程与软件技术网络化协同与先进制造技术等领域形成了较强的科研特色承担或完成包括国家自然基金国家科技攻关项目山西省基础研究项目等80余项企业委托项目50余项发表学术论文800余篇其中被sciei收录近400篇获省级科技进步奖和自然科学奖10项省级教学成果奖2项出版专著教材30余部学院是中国系统仿真学会中国计算机学会的理事单位山西省自动化工程技术研究中山西省制造业信息化生产力促进中心的依托单位是山西省计算机学会挂靠单位">计算机科学与技术学院拥有计算机科学与技术和软件工程两个一级硕士点，计算机技术和软件工程两个工程硕士授权领域。近年来，在智能计算与群智能理论、数据挖掘与知识工程、物联网与传感网技术、软件工程与软件技术、网络化协同与先进制造技术等领域形成了较强的科研特色。承担或完成包括国家自然基金、国家科技攻关项目、山西省基础研究项目等80余项、企业委托项目50余项。发表学术论文800余篇，其中被SCI/EI收录近400篇，获省级科技进步奖和自然科学奖10项，省级教学成果奖2项，出版专著教材30余部。学院是中国系统仿真学会、中国计算机学会的理事单位，山西省自动化工程技术研究中、山西省制造业信息化生产力促进中心的依托单位，是山西省计算机学会挂靠单位。</h4>
-          <h1 id="专业介绍">专业介绍</h1>
+          <h1 id="专业介绍">专业介绍</h1><hr/>
           <h2 id="计算机科学与技术">计算机科学与技术</h2>
           <p><strong>（理工科，本科，四年制，专业代码080605）</strong></p>
           <p><strong>省部级品牌专业，国家级特色专业建设点。</strong>本专业着重培养具有良好的科学素养、系统掌握计算机工程技术的基本理论、基本知识和基本技能与方法，突出计算机工程的分析、设计、实现与管理能力的专门高级工程技术人才。本专业开设的主要课程有：计算机科学导论、C高级语言程序设计、算法与数据结构、计算机组成原理、操作系统、计算机网络、计算机系统结构、软件工程、数据库系统原理、电路与系统、模拟与数字电子技术、离散结构、数字逻辑、数字信号处理、嵌入式系统、编译原理、计算方法、面向对象程序设计、软件分析与建模技术等。毕业生适合于在大型企事业单位、IT行业以及科研部门、教育单位、行政管理部门等单位从事计算机工程的开发设计、科学研究、组织管理等工作。本专业具有硕士学位授予权，学生毕业后可继续深造。</p>
@@ -155,12 +165,13 @@
         ================================================== -->
         <section id="leader">
             <h1>现任领导</h1>
+            <hr class="active"/>
             <br/>
             <div class="accordion" id="accordion2">
                 <div class="accordion-group">
                   <div class="accordion-heading">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                      <h3>党委书记：李志宏 </h3>
+                      <h3 >党委书记：李志宏 </h3>
                     </a>
                   </div>
                   <div id="collapseOne" class="accordion-body collapse in">
@@ -285,7 +296,42 @@
         ================================================== -->
         <section id="setting">
           <h1>机构设置</h1>
+          <hr class="active"/>
             <a href="img/setting.jpg" class="fresco" ><img src="img/setting.jpg" width="500" height="250" class="reflect rheight23" ></a>     
+        </section>
+        <!-- history
+        ================================================== -->
+        <section id="history">
+          <h1>发展历程</h1>
+          <hr class="active"/>
+            <p>
+              计算机科学与技术学院经历了一个漫长而曲折的发展过程，它的前身可追溯到1993年10月。当时由计算站抽出6名教师并入电气工程系组建了计算机教研室，翌年招收了第一批计算机维护与维修专业专科生；1996年开始招收计算机应用专业本科生。1997年将计算机教研室和系统仿真研究所从电气工程系分出成立了计算机科学与工程系。2001年随着院系结构调整，将计算机科学与工程系和自动化系合并，成立了电子信息工程分院。2003年8月将计算机科学与工程系从电子信息工程分院独立，成立了计算机科学与技术分院。2004年5月随着太原重型机械学院更名为太原科技大学，将计算机科学与技术分院改名为计算机科学与技术学院。
+            </p>   
+            <p>
+              多年来，在全体教职工的共同努力下，学院的面貌发生了翻天覆地的变化。学科建设进一步加强，学术水平逐步提高，师资结构日趋合理，科学研究蔚然成风，一个年富力强、充满朝气、团结奋进、蓬勃向上的计算机科学与计算机学院正在太原科技大学崛起。
+            </p>
+            <br/>
+            <p>
+            <ul>
+              <li >1993年9月，计算机教研室成立</li>
+              <li >1994年9月，计算机科学与技术专科招生。</li>
+              <li >1994年9月，计算机科学与技术本科招生。</li>
+              <li >1997年8月，计算机科学与技术工程系成立。</li>
+              <li>2000 年9月，信息管理与信息系统专业本科招生。</li>
+              <li>2001年与自动化系，电子信息系合并成立电子信息工程分院</li>
+              <li>2001年获计算机应用技术硕士学位授予权</li>
+              <li>2001年获系统工程硕士学位授予权</li>
+              <li>2001年系统工程学科为山西省重点建设学科</li>
+              <li>2003年8月，计算机科学与技术学院成立。</li> 
+              <li>2003年 获计算机软件与理论硕士学位授予权</li>
+              <li> 2005年计算机科学与技术批准为山西省品牌专业。</li>
+              <li> 2006年获模式识别与智能系统硕士学位授予权。</li>
+              <li> 2007年9月，网络工程专业本科招生。</li>
+              <li> 2007年12月，信息管理与信息系统批准为山西省品牌专业。</li>
+              <li> 2010年计算机科学与技术专业批准为国家品牌专业。</li>
+              <li> 2011年9月，软件工程专业本科招生。</li>
+            </ul>
+            </p>
         </section>
 
        </div>
@@ -293,13 +339,17 @@
       
 
        <!-- Footer
-              ================================================== -->
-             <footer class="footer" align="center" >
-     
-             <p >地址：中国·山西·太原科技大学(030024) 版权所有 &copy; </p>
-             <p>All Rights Reserved. <a href="http://www.tyust.edu.cn/" target="_blank" >Tyust.edu.cn</a> | 晋ICP备05000464号 </p>    
+      ================================================== -->
+      <br/>
+      <div class="row-fluid " >
+      <footer class="footer" align="center" >
+        <div class="offset3 ">
+        <p >地址：中国·山西·太原科技大学(030024) 版权所有 &copy; </p>
+        <p>All Rights Reserved. <a href="http://www.tyust.edu.cn/" target="_blank" >Tyust.edu.cn</a> | 晋ICP备05000464号 </p>
+        </div>
+       </div>    
+      </footer>
       
-             </footer>
     </div>
    </div><!--row-fluid-->
  </div><!--container-fluid -->

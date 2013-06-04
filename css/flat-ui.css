@@ -1,3 +1,8 @@
+body, button, input, select, textarea {
+  font: 16px/1.62 "Ubuntu", 'Helvetica Neue', 'Xin Gothic', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', 'aria', sans-serif;
+  color: #3E4349;
+}
+
 @import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic");
 @font-face {
   font-family: "Flat-UI-Icons-16";
@@ -1000,19 +1005,19 @@ textarea,
 .progress, .ui-slider {
   background: #e8edf2;
   border-radius: 32px;
-  height: 12px;
+  height: 20px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
   .progress .bar, .ui-slider .bar {
-    background: #FFA430;
+    background: #0074d0;
     -webkit-box-shadow: none !important;
     -moz-box-shadow: none !important;
     box-shadow: none !important;
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
   .progress .bar-success, .ui-slider .bar-success {
-    background-color: #2ecc71;
+    background-color: #1e9bff;
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
   .progress .bar-warning, .ui-slider .bar-warning {
     background-color: #f1c40f;
@@ -1504,12 +1509,13 @@ input.todo-search-field {
   .todo-search {
     background-image: "../images/todo/search-2x.png"; } }
 footer {
+  
   background-color: #48aeff;
   color: #2c3e50;
   font-size: 15px;
   padding: 0; }
   footer a {
-    color: #a1a4a7;
+    color: #1b557a;
     font-weight: 700; }
   footer p {
     font-size: 15px;
