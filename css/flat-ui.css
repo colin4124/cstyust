@@ -1,5 +1,5 @@
 body, button, input, select, textarea {
-  font: 16px/1.62  'WenQuanYi Micro Hei';background: #eee;
+  font: 16px/1.62  sans-serif;background: #eee;
   color: #3E4349;
 }
 
